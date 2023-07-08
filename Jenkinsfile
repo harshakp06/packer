@@ -5,6 +5,11 @@ pipeline {
     AWS_SECRET_ACCESS_KEY = credentials('aws_secertkey')
   }
   stages {
+    stage('hello'){
+      steps{
+        sh 'echo packer build'
+      }
+    }
     stage('packer build') {
       steps {
         sh '''
