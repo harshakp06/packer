@@ -16,7 +16,7 @@ source "amazon-ebs" "amazon-linux" {
   region          = "ap-south-1"
   ami_name        = "ami-version-1.0.1-{{timestamp}}"
   instance_type   = "t2.micro"
-  source_ami      = "ami-006935d9a6773e4ec"
+  #source_ami      = "ami-006935d9a6773e4ec"
   # If you are using the source_ami_filter comment the above source_ami
   source_ami_filter {
     filters = {
@@ -27,6 +27,11 @@ source "amazon-ebs" "amazon-linux" {
     most_recent = true
     owners      = ["099720109477"]
    }
+  #ami_users       = ["AWS Account ID"]
+  ami_regions     = [
+                      "ap-south-1"
+                      "us-west-1a"
+                    ] 
   ssh_username    = "ec2-user"
   }
 
