@@ -8,9 +8,8 @@
 
 
 ## Checkout below link for Packer Installation  
-[Packer Installation] (https://developer.hashicorp.com/packer/downloads)
+<a href="https://developer.hashicorp.com/packer/downloads" target="_blank">Packer Installation</a>
 
 ## Packer Tutorials creating AMI's on AWS
-[AWS Tutorials] (https://developer.hashicorp.com/packer/tutorials/aws-get-started)
-
+<a href="https://developer.hashicorp.com/packer/tutorials/aws-get-started" target="_blank">AWS Tutorials</a>
 
