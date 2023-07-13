@@ -1,6 +1,10 @@
 # Easy way to create AMI's using Packer
 
-![image](https://github.com/harshakp06/packer/assets/48921568/ed9c8afc-0925-4e28-97a5-7ed83a05a035)
+<p align="center" style="text-align:center;">
+  <a href="https://www.packer.io">
+    <img alt="HashiCorp Packer logo" src="website/public/img/logo-packer-padded.svg" width="500" />
+  </a>
+</p>
 
 
 ## Checkout below link for Packer Installation  
